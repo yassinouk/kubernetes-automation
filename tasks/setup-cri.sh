@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # setting MYOS variable
 MYOS=$(hostnamectl | awk '/Operating/ { print $3 }')
 OSVERSION=$(hostnamectl | awk '/Operating/ { print $4 }')

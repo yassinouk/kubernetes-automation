@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 LOG_FILE="logs/install-kubernetes-packages.log"
