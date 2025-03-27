@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 LOG_FILE="logs/initialize-containerd.log"
