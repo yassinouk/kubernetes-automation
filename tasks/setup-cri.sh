@@ -73,7 +73,7 @@ TOML
     log "Container runtime installation complete!"
 fi
 
-sudo ln -s /etc/apparmor.d/runc /etc/apparmor.d/disable/
+sudo ln -sf /etc/apparmor.d/runc /etc/apparmor.d/disable/
 sudo apparmor_parser -R /etc/apparmor.d/runc
 
 
