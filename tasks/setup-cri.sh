@@ -78,4 +78,3 @@ fi
 
 
 touch /tmp/container.txt
-return 0
