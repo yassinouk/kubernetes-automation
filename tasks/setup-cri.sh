@@ -7,6 +7,8 @@ log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a "$LOG_FILE"
 }
 
+log "Installing necessary tools..."
+sudo apt-get update && sudo apt-get install -y apt-transport-https curl
 log "Installing container runtime..."
 
 MYOS=$(hostnamectl | awk '/Operating/ { print $3 }')
